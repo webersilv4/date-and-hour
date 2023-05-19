@@ -16,6 +16,13 @@ function App() {
     return (
         <>
             <div>
+                
+                {/* <select name="" id="">
+                    <option value="">BR</option>
+                    <option value="">US</option>
+                    <option value="">JP</option>
+                </select> */}
+
                 <b style={{ color: '#646cff' }}>{ dateAndHour.getDate()}/{dateAndHour.getMonth()}/{dateAndHour.getFullYear() }</b>
                 <h1>
                     { dateAndHour.getHours() <= 9 ? `0${dateAndHour.getHours()}` : dateAndHour.getHours() }:
